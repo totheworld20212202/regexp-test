@@ -1,0 +1,11 @@
+1. folder만들고, vs code로 열기
+2. npm init -y 그러면 package.json생김
+3. npm i parcel-bundler -D (-D는 개발용으로 만든다는것, package-lock.json, node_modules가 담겨있음. )
+4. pacakge.json에서 "scripts":에 지우고, 
+    "scripts":{
+        "dev": "parcel index.html", 
+        "build": "parcel build index.html"
+    }
+    추가하기 
+5. version문제 생기면, parcel-bundler다른버전으로 다시설치. 
+    npm i parcel-bundler@1.12.3 -D (현재는 1.12.4인데 에러가있다면 한단계 낮은것 )
